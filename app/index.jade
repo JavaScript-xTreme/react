@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Client Template
+    link(rel='stylesheet', href='./css/app.css')
+  body
+    h1 Client Template
+
+    #weather1
+    #weather2
+    #weather3
+
+    #title1
+    #title2
+
+    #clock1
+    #clock2
+    #clock3
+
+    script(src='./js/vendor/jquery-2.1.0.js')
+    script(src="http://fb.me/react-0.10.0.js")
+    script(src="http://fb.me/JSXTransformer-0.10.0.js")
+    script(type='text/jsx', src='./js/components/title.js')
+    script(type='text/jsx', src='./js/components/clock.js')
+    script(type='text/jsx', src='./js/components/weather.js')
+    script(type='text/jsx', src='./js/components/master.js')
+    script(src='./js/source/main.js')
